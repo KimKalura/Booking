@@ -20,7 +20,7 @@ public class JwtTokenService {
 
     private JWTVerifier verifier;
 
-    public static final long JWT_TOKEN_VALIDITY = 220686888L;//7days// 604800000L
+    public static final long JWT_TOKEN_VALIDITY = 220686888L;
 
     public JwtTokenService(@Value("${jwt.secret}") String secret){
         this.hmac512 = Algorithm.HMAC512(secret);
