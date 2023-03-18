@@ -19,6 +19,9 @@ public class User {
     private String username;
 
     @Column
+    private String email;
+
+    @Column
     private String password;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
@@ -44,9 +47,9 @@ public class User {
 //    }
 
 
-    public User(Long id, String username, String password, List<Reservation> reservationList, List<Role> roleList) {
-        this.id = id;
+    public User(String username, String email, String password, List<Reservation> reservationList, List<Role> roleList) {
         this.username = username;
+        this.email = email;
         this.password = password;
         this.reservationList = reservationList;
         this.roleList = roleList;
@@ -81,6 +84,14 @@ public class User {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPassword() {
