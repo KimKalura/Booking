@@ -1,16 +1,11 @@
 package com.spring.booking.dto;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.spring.booking.model.Room;
-
 import java.time.LocalDateTime;
 import java.util.List;
 
 public class AddReservationDTO {
 
-    private Long userId;
     private List<Long> roomIds;
-
     private LocalDateTime checkIn;
     private LocalDateTime checkOut;
 
