@@ -3,7 +3,7 @@
 Here you can find the documentation of the Hotel Reservation System
 
 ## 🚀 About Me
-💻(Aspiring) back-end software developer | 👨‍💻Helping companies to build great back-ends | Java, Spring Boot | Passionate about solving problems using technology
+💻Back-end software developer | 👨‍💻Helping companies to build great back-ends | Java, Spring Boot | Passionate about solving problems using technology
 
 
 ## 🛠 Skills
@@ -23,8 +23,7 @@ As a client, I can:
 -	add a reservation
 -	view available rooms
 -	view number of available rooms
--	view price for all reservations between dates
--	view available rooms ordered by price (for a certain period of time and number of people)
+
 
 As an admin, I can:
 -	add a hotel
@@ -32,7 +31,8 @@ As an admin, I can:
 -	delete room
 -	find all rooms by hotel
 -	update room price
-
+-	view price for all reservations between dates
+-	view available rooms ordered by price (for a certain period of time and number of people)
 
 ## Built with
 
